@@ -13,10 +13,10 @@ This external adapter is used to verify whether or not a specified twitter user 
 {
  "jobRunID": "1",
  "data": {
-  "userid": "1234567"
-  "tweetid": "1234567891011",
+  "userid": "1234567",
+  "tweetid": "1234567891011"
  },
- "result": "true"
+ "result": "true",
  "statusCode": 200
 }
 ```
