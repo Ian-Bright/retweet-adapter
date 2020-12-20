@@ -1,6 +1,6 @@
 name: Retweet Adapter
 description: This adapter allows an individual to provider a tweet id and and user id to verify that a user has retweeted that particular tweet. A boolean value is then returned and can be used inside your smart contract for whatever you wish.
-node_idenifier: verify-retweet
+node_idenifier: verifyRetweet
 platforms:
         - Docker
         - Lambda
