@@ -3,7 +3,7 @@ description: This adapter allows an individual to provider a tweet id and and us
 node_identifier: verifyretweet
 platforms:
         - Docker
-        - Lambda
+        - AWS Lambda
         - GCP Functions
 data_sources:
         - name: Twitter
