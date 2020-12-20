@@ -16,7 +16,7 @@ This external adapter is used to verify whether or not a specified twitter user 
   "userid": "1234567",
   "tweetid": "1234567891011"
  },
- "result": "true",
+ "result": true,
  "statusCode": 200
 }
 ```
