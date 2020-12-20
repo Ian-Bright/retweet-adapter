@@ -1,6 +1,6 @@
 name: Retweet Adapter
 description: This adapter allows an individual to provider a tweet id and and user id to verify that a user has retweeted that particular tweet.
-node_idenifier: verifyretweet
+node_identifier: verifyretweet
 platforms:
         - Docker
         - Lambda
