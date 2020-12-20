@@ -2,8 +2,8 @@ name: Retweet Adapter
 description: This adapter allows an individual to provider a tweet id and and user id to verify that a user has retweeted that particular tweet.
 node_identifier: verifyretweet
 data_sources:
-        - name: Twitter
-        - url: https://twitter.com
+        - name: Endpoint
+        - url: http://twitteradapter.mubc.io/verify-retweet
 parameters: 
         - userid
         - twitterid
