@@ -3,7 +3,7 @@ description: This adapter allows an individual to provider a tweet id and and us
 node_identifier: verifyretweet
 data_sources:
         - name: Endpoint
-        - url: http://twitteradapter.mubc.io/verify-retweet
+        - url: http://twitteradapter.mubc.io:8080/verify-retweet
 parameters: 
         - userid
         - twitterid
