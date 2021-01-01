@@ -1,9 +1,11 @@
 name: Retweet Adapter
 description: This adapter allows an individual to provider a tweet id and and user id to verify that a user has retweeted that particular tweet.
 node_identifier: verifyretweet
+platforms: 
+        - AWS Lambda
 data_sources:
-        - name: Endpoint
-        - url: http://adapter.mubc.io:8080/verify-retweet
+        - name: Twitter
+        - url: https://developer.twitter.com/en/docs/twitter-api
 parameters: 
         - userid
         - twitterid
