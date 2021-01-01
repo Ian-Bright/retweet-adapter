@@ -1,5 +1,5 @@
 name: MUBC Retweet Verifier
-description: This adapter allows an individual to provider a tweet id and and user id to verify that a user has retweeted that particular tweet.
+description: This adapter allows an individual to provide a tweet id and and user id to verify that a user has retweeted that particular tweet.
 node_identifier: retweet-verifier
 platforms: 
         - AWS Lambda
